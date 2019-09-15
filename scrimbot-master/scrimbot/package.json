@@ -1,0 +1,28 @@
+{
+  "name": "scrimbot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/scrimbot.js",
+  "scripts": {
+    "watch": "tsc -p . -w",
+    "start": "tsc -p . && node built/scrimbot.js",
+    "test": "echo \"No tests specified\"",
+    "preinstall": "npm link ../harmony"
+  },
+  "keywords": [],
+  "author": "Mythic https://github.com/MythicManiac",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MythicManiac/discord-ow-scrimbot.git"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.53",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "chrono-node": "^1.2.5",
+    "dateformat": "^2.0.0"
+  }
+}
